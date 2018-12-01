@@ -22,6 +22,75 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bugs\bs_syntax.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bugs\bs_txt.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bugs\bugs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="calc\calc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="calc\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="grade\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="grade\student.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="k_mean\k_mean01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\basic.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear05.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear06.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear07.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\plot01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\matplot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\matplot2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\matplot3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\numpy1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pandas\pandas1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="person\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="person\Person.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="py_basic\add.py">
       <SubType>Code</SubType>
     </Compile>
@@ -29,7 +98,13 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="py_basic\PythonApplication1.py" />
+    <Compile Include="py_oop\main.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="py_oop\py_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\py_inher.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="py_oop\py_method.py">
@@ -38,10 +113,61 @@
     <Compile Include="py_oop\py_static.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="selenium\auto_login.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="selenium\google.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="selenium\naver_movie.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sqlite\sqlite01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tboard\tboard02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tboard\tboard03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tboard\tboard1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_constant.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tf_basic\tf_multi.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tf_basic\tf_op.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_op2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_placeholder.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tf_basic\tf_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_Variable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_git\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_git\ops.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_git\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tkinter\label.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tkinter\main.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -49,6 +175,19 @@
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda37-64" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="calc\" />
+    <Folder Include="grade\" />
+    <Folder Include="bugs\" />
+    <Folder Include="linear_regression\" />
+    <Folder Include="k_mean\" />
+    <Folder Include="sqlite\" />
+    <Folder Include="pandas\" />
+    <Folder Include="numpy\" />
+    <Folder Include="tboard\" />
+    <Folder Include="tf_git\" />
+    <Folder Include="selenium\" />
+    <Folder Include="tkinter\" />
+    <Folder Include="person\" />
     <Folder Include="py_oop\" />
     <Folder Include="py_basic\" />
     <Folder Include="tf_basic\" />
