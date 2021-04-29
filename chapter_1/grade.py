@@ -3,6 +3,7 @@ class Grade:
         self.name = name
         self.marks = []
         print(" {} 학생 ".format(name))
+
     def addmarks(self, mark):
         self.marks.append(mark)
     def avg(self):
